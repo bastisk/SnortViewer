@@ -1,0 +1,15 @@
+extends layout
+block content
+    div.container
+        h1 Snort Dashboard
+        table(class="table table-striped")
+            thead
+                th ID
+                th Message
+            tbody
+                each message in alerts
+                    tr
+                        td= message.id
+                        td= message.message
+
+        

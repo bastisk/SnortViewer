@@ -1,0 +1,16 @@
+{
+  "name": "snort-logserver",
+  "version": "1.0.0",
+  "description": "A simple express webserver which displays a snort log as JSON string for further usage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sebastian Kiepsch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  }
+}
