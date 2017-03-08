@@ -1,6 +1,6 @@
 {
   "name": "snort-logserver",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple express webserver which displays a snort log as JSON string for further usage",
   "main": "server.js",
   "scripts": {
